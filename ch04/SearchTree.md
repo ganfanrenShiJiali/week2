@@ -6,3 +6,4 @@
 - Insert
 - Delete
 - Retrieve
+- PrintTree
