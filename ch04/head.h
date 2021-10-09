@@ -13,6 +13,7 @@ Position FindMax(SearchTree T);
 SearchTree Insert(ElementType x, SearchTree T);
 SearchTree Delete(ElementType x, SearchTree T);
 ElementType Retrieve(Position P);
+void PrintTree(SearchTree T);
 
 #endif // ! _Tree_H
 
