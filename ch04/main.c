@@ -97,6 +97,15 @@ ElementType Retrieve(Position P)
 {
 	return P->Element;
 }
+void PrintTree(SearchTree T)
+{
+	if (T != NULL)
+	{
+		PrintTree(T->Left);
+		printf("%d  ", T->Element);
+		PrintTree(T->Right);
+	}
+}
 int main()
 {
 	printf("开始插入···\n");
